@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontend mentor](https://www.frontendmentor.io/solutions/)
+- Solution URL: [frontend mentor](https://www.frontendmentor.io/solutions/clipboard-landing-page-VJKptARuxe)
 - Live Site URL: (https://abdallarahmah.github.io/Clipboard-landing-page/)
 
 ## My process
