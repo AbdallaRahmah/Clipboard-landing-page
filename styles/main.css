@@ -12,7 +12,7 @@ html {
 }
 
 header {
-  padding-top: 6rem;
+  padding-top: 6.5rem;
   background-image: url(../images/bg-header-desktop.png);
   background-size: cover;
   max-height: 100vh;
@@ -28,7 +28,7 @@ header {
   }
 }
 header .img-container {
-  width: 8rem;
+  width: 7rem;
   aspect-ratio: 1/1;
 }
 @media (max-width: 576px) {
@@ -37,11 +37,11 @@ header .img-container {
   }
 }
 header .main-title {
-  margin-top: 3rem;
+  margin-top: 3.125rem;
 }
 @media (max-width: 576px) {
   header .main-title {
-    margin-top: 2.5rem;
+    margin-top: 2.75rem;
   }
 }
 
@@ -55,7 +55,7 @@ header .main-title {
 
 section,
 footer {
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 
 .first-section {
@@ -64,19 +64,19 @@ footer {
   align-items: center;
 }
 .first-section .content-container {
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   display: flex;
 }
 @media (max-width: 576px) {
   .first-section .content-container {
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
   }
 }
 .first-section .content-container .img-container {
-  width: min(50%, 770px);
+  width: min(50%, 992px);
 }
 @media (max-width: 576px) {
   .first-section .content-container .img-container {
@@ -89,7 +89,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 @media (max-width: 768px) {
   .first-section .content-container .content {
@@ -108,16 +108,16 @@ footer {
   margin-inline: auto;
 }
 .second-section .img-container {
-  margin-top: 3rem;
+  margin-top: 3.5rem;
   margin-inline: auto;
-  width: min(90%, 770px);
+  width: min(90%, 992px);
 }
 
 .third-section .second-paragraph {
   margin-inline: auto;
 }
 .third-section .tools-container {
-  margin-block: 3rem;
+  margin-top: 3.5rem;
   margin-inline: auto;
   display: flex;
   align-items: center;
@@ -157,7 +157,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: hsla(201, 11%, 66%, 0.2);
+  background-color: hsla(201, 11%, 66%, 0.1);
   gap: 3rem;
   flex-wrap: wrap;
 }
@@ -167,7 +167,7 @@ footer {
   }
 }
 .footer .img-container {
-  width: 4rem;
+  width: 3.5rem;
 }
 .footer .links-container {
   display: flex;
@@ -182,7 +182,6 @@ footer {
 }
 .footer .links-container .link {
   width: 30%;
-  font-weight: bold;
   text-decoration: none;
   color: hsl(210, 10%, 33%);
   transition: color 500ms ease-in-out;
@@ -203,7 +202,7 @@ footer {
   flex-wrap: nowrap;
 }
 .footer .social-media .img-container {
-  width: 2rem;
+  width: 1.75rem;
   aspect-ratio: 1/1;
 }
 .footer .social-media .img-container img {
@@ -250,6 +249,7 @@ footer {
 
 .main-paragraph {
   max-width: 55ch;
+  font-size: 1.125rem;
   color: hsl(201, 11%, 66%);
   text-align: center;
   line-height: 1.6;
@@ -273,7 +273,7 @@ footer {
 }
 
 .buttons-container {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
